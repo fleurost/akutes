@@ -35,10 +35,10 @@ services:
         - ../crypto-config/ordererOrganizations/hospital.com/msp/tlscacerts:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/hospital.com/msp/tlscacerts
         - peer0.org1.hospital.com:/var/hyperledger/production
     extra_hosts:
-      - "peer0.org2.hospital.com:13.250.45.246"
-      - "peer1.org2.hospital.com:13.250.45.246"
-      - "ca_peerOrg2:13.250.45.246"
-      - "orderer.hospital.com:13.250.110.180"
+      - "peer0.org2.hospital.com:3.14.64.211"
+      - "peer1.org2.hospital.com:3.14.64.211"
+      - "ca_peerOrg2:3.14.64.211"
+      - "orderer.hospital.com:3.135.224.184"
     ports:
       - 7051:7051
       - 7053:7053
@@ -76,10 +76,10 @@ services:
         - ../crypto-config/ordererOrganizations/hospital.com/msp/tlscacerts:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/hospital.com/msp/tlscacerts
         - peer1.org1.hospital.com:/var/hyperledger/production
     extra_hosts:
-      - "peer0.org2.hospital.com:13.250.45.246"
-      - "peer1.org2.hospital.com:13.250.45.246"
-      - "ca_peerOrg2:13.250.45.246"
-      - "orderer.hospital.com:13.250.110.180"
+      - "peer0.org2.hospital.com:3.14.64.211"
+      - "peer1.org2.hospital.com:3.14.64.211"
+      - "ca_peerOrg2:3.14.64.211"
+      - "orderer.hospital.com:3.135.224.184"
     ports:
       - 8051:7051
       - 8053:7053
