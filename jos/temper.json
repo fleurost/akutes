@@ -1,0 +1,6 @@
+{
+	"docs":
+	[
+		{"_id":"\u0000Asset:org.hospital.record.DataMedis\u0000001\u0000","_rev":"1-f2392bf57cb7bc978fc319880ac93ec3","$class":"org.hospital.record.DataMedis","$registryId":"org.hospital.record.DataMedis","$registryType":"Asset","alasanMasuk":"string","alasanPulang":"string","anamnesis":"string","diagnosaPrimer":"AKU SEMBUH MAMAK","diagnosaSekunder":"string","dokter":"resource:org.hospital.record.Dokter#string","idRekMedis":"001","kondisiSaatPulang":"string","noRekMedis":"string","pasien":"resource:org.hospital.record.Pasien#string","pemeriksaanFisik":"string","prognosaPenyakit":"string","rencanaTindakLanjut":"string","riwayatAlergi":"string","rujukan":"string","terapiDiRs":"string","tglKeluar":"string","tglMasuk":"string","tindakan":"string","~version":"\u0000CgMBBAA="}
+	]
+}
